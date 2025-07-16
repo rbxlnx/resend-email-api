@@ -20,6 +20,6 @@ export default async function handler(req, res) {
     res.status(200).json({ success: true, data });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Errore durante l'invio email' });
+    res.status(500).json({ error: 'Errore durante l\'invio email' });
   }
 }
